@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smiley factory</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div id="formBox">
+            <form>
+                <label>Eyes:</label>
+                <select id="eyeChoice">
+                    <option value="happy">Happy</option>
+                    <option value="sad">Sad</option>
+                    <option value="wink">Wink</option>
+                    <option value="love">Love</option>
+                </select>
+                <label>Mouth:</label>
+                <select id="mouthChoice">
+                    <option value="smile">Smile</option>
+                    <option value="sad">Sad</option>
+                    <option value="open">Open</option>
+                    <option value="tongue">Tongue</option>
+                </select>
+            </form>
+            
+            <button id="build">Build !</button>
+        </div>
+    </div>
+
+    
+
+    <div class="wrapper inline">
+        <div id=scene>
+            <img id="convey1" class="conveyor" src="Sources/conveyor_belt_line.png" alt="">
+            <img id="convey2" class="conveyor" src="Sources/conveyor_belt_line.png" alt="">
+            <img id="convey3" class="conveyor" src="Sources/conveyor_belt_line.png" alt="">
+            <img id="convey4" class="conveyor" src="Sources/conveyor_belt_line.png" alt="">
+
+            <img id="noise1" class="noise" src="Sources/construct.png" alt="">
+            <img id="noise2" class="noise" src="Sources/construct.png" alt="">
+
+            <img id="smiley" src="Sources/emoji_face.png" alt="">
+
+            <div id="face">
+                <img id="eyes" src="Sources/happy_eyes.png" alt="">
+                <img id="mouth" src="Sources/happy_mouth.png" alt="">
+            </div>
+
+            <img id="control1" class="control" src="Sources/control-system.png" alt="">
+            <img id="control2" class="control" src="Sources/control-system.png" alt="">
+        </div>
+    </div>
+
+    <div id="curtain" class="inline"></div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="main.js"></script> 
+</body>
+</html>

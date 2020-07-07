@@ -1,0 +1,133 @@
+.wrapper {
+    width: 650px;
+    text-align: center;
+}
+
+#formBox {
+    background-color: slateblue;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: -25px;
+}
+
+label {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 1px #9752cc;
+    margin: 15px;
+    margin-bottom: 0px;
+}
+button:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+#scene {
+    background-color: lavender;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 25px;
+    height: 400px;
+}
+
+.conveyor {
+    position: absolute;
+    width: 210px;
+    top: 450px;
+}
+#convey1 {
+    margin-left: -320px;
+}
+#convey2 {
+    margin-left: -150px;
+}
+#convey3 {
+    margin-left: 20px;
+}
+#convey4 {
+    margin-left: 150px;
+}
+
+.noise {
+    position: absolute;
+    top: 235px;
+    width: 250px;
+}
+#noise1 {
+    margin-left: -270px;
+    opacity: 0;
+}
+#noise2 {
+    margin-left: -70px;
+    opacity: 0;
+}
+
+/* SMILEY BUILDING */
+#smiley {
+    position: absolute;
+    width: 60px;
+    top: 395px;
+    margin-left: -300px;
+}
+
+#face {
+    position: absolute;
+    top: 395px;
+    width: 60px;
+    height: 60px;
+    margin-left: 150px;
+}
+#eyes {
+    width: 60px;
+}
+
+#mouth {
+    width: 60px;
+    visibility: hidden;
+}
+
+.control {
+    position: absolute;
+    width: 160px;
+    top: 340px;
+}
+#control1 {
+    margin-left: -250px;
+}
+#control2 {
+    margin-left: -50px;
+}
+
+.inline {
+    display: inline-block;
+}
+#curtain {
+    position: absolute;
+    background-color: white;
+    height: 400px;
+    width: 100px;
+
+}
